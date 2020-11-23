@@ -1,15 +1,16 @@
+import './App.css';
+import ParagraphEditor from './Editor/editor';
+import TablesEditor from './Table/index';
 
-
-import Table from "./Component/Table";
-import ContextMenu from './Component/ContextMenu'
-const App = () => {
- 
-
+function App() {
   return (
-    <div >
-      <ContextMenu/>
+    <div className="App">
+      <h3>Slate JS Editor</h3>
+      <br/>
+      <ParagraphEditor/>
+      <TablesEditor/>
     </div>
   );
-};
+}
 
 export default App;

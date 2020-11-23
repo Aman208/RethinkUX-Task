@@ -1,0 +1,48 @@
+
+  .Table-Editor {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  #content {
+    height: 10vh;
+    margin: 5vh ;
+  }
+  
+ a{
+    color: rgb(16, 19, 199);
+    text-transform: uppercase;
+  }
+  
+  #horz-list ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  #horz-list ul li {
+    display: inline;
+    /* flex-direction: row; */
+  }
+  
+  #horz-list ul li a {
+    text-decoration: none;
+    padding: 0.2em 1.1em;
+    border-right: 2px solid rgba(116, 29, 29, 0.8);
+    margin: 0 0 0 6px;
+  }
+  
+  #horz-list ul li:last-child a {
+    border: none;
+  }
+  
+  #horz-list ul li p.temp:hover {
+    background: rgba(170, 43, 43, 0.8);
+    color: #1a1a1a;
+  }
+  
